@@ -1,0 +1,13 @@
+prefix=C:/Program Files/directui
+exec_prefix=C:/Program Files/directui
+libdir=C:/Program Files/directui/lib
+sharedlibdir=C:/Program Files/directui/lib
+includedir=C:/Program Files/directui/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

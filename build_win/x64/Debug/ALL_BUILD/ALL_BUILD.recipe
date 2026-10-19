@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\Debug\360SafeDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\Debug\GameDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\Debug\ListDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\Debug\NodeDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\Debug\RichEditDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\Debug\RichListDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\directui\build_win\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

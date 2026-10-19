@@ -1,0 +1,10 @@
+^I:\跨平台\DIRECTUI\BUILD_WIN\CMAKEFILES\091752978B916B1C6C1694CD3CB0E7B9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/directui -BI:/跨平台/directui/build_win --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/跨平台/directui/build_win/directui.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

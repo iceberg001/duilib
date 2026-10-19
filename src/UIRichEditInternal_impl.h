@@ -1,0 +1,57 @@
+//
+// Created by mxllcy on 2026/3/16.
+//
+
+#ifndef DIRECTUI_UIRICHEDITINTERNAL_IMPL_H
+#define DIRECTUI_UIRICHEDITINTERNAL_IMPL_H
+#include "UIRichEdit.h"
+
+HANDLE_FONT CreateFontFromStyle(const TextStyle& s);
+void GetTextMetricsForStyle(HANDLE_DC hdc, const TextStyle& st, int& ascent, int& descent, int& lineHeight);
+
+#ifdef _WIN32
+bool IsBreakable(wchar_t c) ;
+size_t ConsumeNewLine(const std::wstring& text, size_t index);
+size_t NextTextUnit(const std::wstring& text, size_t index);
+bool IsBreakableAt(const std::wstring& text, size_t index);
+int MeasureTextWidthRange(HANDLE_DC hdc, const TextStyle& st, const wchar_t* text, int length);
+int GetTextFitMetrics(HANDLE_DC hdc, const TextStyle& st, const wchar_t* text, int length, int maxWidth,
+					  int* fitWidth);
+size_t HitTestTextCaret(HANDLE_DC hdc, const TextStyle& st, const wchar_t* text, int length, int x,
+					 int* caretX);
+void DrawTextRunSegment(HANDLE_DC hdc, const TextStyle& st, const UIRect& rc, const std::wstring& text);
+
+void ComputeTextSliceForLine(HANDLE_DC hdc,
+									const TextRun& textRun,
+									const std::wstring& s,
+									size_t i,
+									int avail,
+									size_t& cut,
+									int& bestW,
+									bool& forceCommitAfterSoftBreak);
+#else
+struct WrappedTextSlice {
+	size_t startChar;
+	size_t charLen;
+	int width;
+	WrappedTextSlice() : startChar(0), charLen(0), width(0) {}
+	WrappedTextSlice(size_t start, size_t len, int w) : startChar(start), charLen(len), width(w) {}
+};
+
+size_t ConsumeNewLine(const std::string& text, size_t index);
+size_t NextTextUnit(const std::string& text, size_t index);
+
+void ComputeWrappedTextSlices(HANDLE_DC hdc,
+							  const TextStyle& st,
+							  const char* text,
+							  int length,
+							  int lineWidth,
+							  std::vector<WrappedTextSlice>& outSlices);
+size_t HitTestTextCaret(HANDLE_DC hdc, const TextStyle& st, const char* text, int length, int x,
+					 int* caretX);
+void DrawTextRunSegment(HANDLE_DC hdc, const TextStyle& st, const UIRect& rc, const std::string& text);
+#endif
+
+
+
+#endif //DIRECTUI_UIRICHEDITINTERNAL_IMPL_H
