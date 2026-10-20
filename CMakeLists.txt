@@ -71,4 +71,5 @@ target_link_libraries(DuiLib PRIVATE zlibstatic)
 
 include_directories(include)
 include_directories(src)
+add_subdirectory(extension)
 add_subdirectory(demo)

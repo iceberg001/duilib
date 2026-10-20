@@ -1,4 +1,4 @@
-# Install script for directory: I:/跨平台/directui/third-party/zlib-1.3.1
+# Install script for directory: I:/跨平台/duilib/duilib/third-party/zlib-1.3.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,8 +42,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "C:/Program Files/directui/include" TYPE FILE FILES
-    "I:/跨平台/directui/build_win/third-party/zlib-1.3.1/zconf.h"
-    "I:/跨平台/directui/third-party/zlib-1.3.1/zlib.h"
+    "I:/跨平台/duilib/duilib/build_win/third-party/zlib-1.3.1/zconf.h"
+    "I:/跨平台/duilib/duilib/third-party/zlib-1.3.1/zlib.h"
     )
 endif()
 
@@ -56,7 +56,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files/directui/share/man/man3" TYPE FILE FILES "I:/跨平台/directui/third-party/zlib-1.3.1/zlib.3")
+  file(INSTALL DESTINATION "C:/Program Files/directui/share/man/man3" TYPE FILE FILES "I:/跨平台/duilib/duilib/third-party/zlib-1.3.1/zlib.3")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,12 +68,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files/directui/share/pkgconfig" TYPE FILE FILES "I:/跨平台/directui/build_win/third-party/zlib-1.3.1/zlib.pc")
+  file(INSTALL DESTINATION "C:/Program Files/directui/share/pkgconfig" TYPE FILE FILES "I:/跨平台/duilib/duilib/build_win/third-party/zlib-1.3.1/zlib.pc")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "I:/跨平台/directui/build_win/third-party/zlib-1.3.1/install_local_manifest.txt"
+  file(WRITE "I:/跨平台/duilib/duilib/build_win/third-party/zlib-1.3.1/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

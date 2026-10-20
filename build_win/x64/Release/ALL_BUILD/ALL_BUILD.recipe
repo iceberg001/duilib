@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\Release\360SafeDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\Release\GameDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\Release\ListDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\Release\NodeDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\Release\RichEditDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\Release\RichListDemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>I:\跨平台\duilib\duilib\build_win\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

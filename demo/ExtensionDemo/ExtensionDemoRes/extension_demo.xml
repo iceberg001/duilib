@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="800,600" caption="0,0,0,40" mininfo="800,600">
+  <Font id="0" name="宋体" size="13" />
+  <VerticalLayout bkcolor="#FFF5F5F5">
+    <HorizontalLayout height="40" bkcolor="#FF2196F3">
+      <Label name="title" text="DuiLib扩展控件Demo" float="true" pos="10,8,400,30" textcolor="#FFFFFFFF" font="0"/>
+      <Button name="closebtn" float="true" pos="770,8,790,28" text="X" bkcolor="#FFE91E63" textcolor="#FFFFFFFF"/>
+    </HorizontalLayout>
+
+    <VerticalLayout inset="10,10,10,10" childpadding="8">
+      <HorizontalLayout height="40" childpadding="10">
+        <Label text="渐变按钮:" width="80" textcolor="#FF333333"/>
+        <FadeButtonUI name="fadebtn1" text="悬停渐变" width="120" bkcolor="#FF4CAF50" textcolor="#FFFFFFFF" normalimage="" hotimage=""/>
+        <FadeButtonUI name="fadebtn2" text="另一个渐变" width="120" bkcolor="#FF2196F3" textcolor="#FFFFFFFF"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout height="40" childpadding="10">
+        <Label text="倒计时按钮:" width="80" textcolor="#FF333333"/>
+        <TimeButtonUI name="timerbtn" text="点击倒计时" width="140" bkcolor="#FFFF9800" textcolor="#FFFFFFFF" sectime="10"/>
+        <Label text="(点击后禁用10秒)" textcolor="#FF999999"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout height="40" childpadding="10">
+        <Label text="日期选择:" width="80" textcolor="#FF333333"/>
+        <DateTimeUI name="datetime" width="200" bkcolor="#FFFFFFFF" textcolor="#FF333333" bordercolor="#FFCCCCCC" bordersize="1"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout height="40" childpadding="10">
+        <Label text="IP地址:" width="80" textcolor="#FF333333"/>
+        <IPAddressUI name="ipaddr" width="200" bkcolor="#FFFFFFFF" textcolor="#FF333333" bordercolor="#FFCCCCCC" bordersize="1"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout height="40" childpadding="10">
+        <Label text="快捷键:" width="80" textcolor="#FF333333"/>
+        <HotKeyUI name="hotkey" width="200" bkcolor="#FFFFFFFF" textcolor="#FF333333" bordercolor="#FFCCCCCC" bordersize="1"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout height="220" childpadding="10">
+        <VerticalLayout width="300">
+          <Label text="取色板:" height="20" textcolor="#FF333333"/>
+          <ColorPaletteUI name="palette" width="280" height="200" palletheight="180" barheight="14" bkcolor="#FFFFFFFF"/>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Label text="选中颜色:" height="20" textcolor="#FF333333"/>
+          <Label name="colorresult" text="#00000000" width="200" height="40" bkcolor="#FFFFFFFF" bordercolor="#FFCCCCCC" bordersize="1" align="center"/>
+          <Label text="圆形头像:" height="20" textcolor="#FF333333"/>
+          <ElipsePhotoUI name="photo" width="100" height="100" bkimage=""/>
+        </VerticalLayout>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7DCEB3BD-B52F-3578-ADA7-B59228685DF7}</ProjectGuid>
+    <ProjectGuid>{46DE630F-7F11-3C6C-8E87-BB541245D40A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>I:\跨平台\directui\backend\win32;I:\跨平台\directui\third-party\stb;I:\跨平台\directui\third-party\zlib-1.3.1;I:\跨平台\directui\third-party\zlib-1.3.1\minizip;I:\跨平台\directui\include;I:\跨平台\directui\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>I:\跨平台\duilib\duilib\backend\win32;I:\跨平台\duilib\duilib\third-party\stb;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1\minizip;I:\跨平台\duilib\duilib\include;I:\跨平台\duilib\duilib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>I:\跨平台\directui\backend\win32;I:\跨平台\directui\third-party\stb;I:\跨平台\directui\third-party\zlib-1.3.1;I:\跨平台\directui\third-party\zlib-1.3.1\minizip;I:\跨平台\directui\include;I:\跨平台\directui\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>I:\跨平台\duilib\duilib\backend\win32;I:\跨平台\duilib\duilib\third-party\stb;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1\minizip;I:\跨平台\duilib\duilib\include;I:\跨平台\duilib\duilib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>I:\跨平台\directui\backend\win32;I:\跨平台\directui\third-party\stb;I:\跨平台\directui\third-party\zlib-1.3.1;I:\跨平台\directui\third-party\zlib-1.3.1\minizip;I:\跨平台\directui\include;I:\跨平台\directui\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>I:\跨平台\duilib\duilib\backend\win32;I:\跨平台\duilib\duilib\third-party\stb;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1\minizip;I:\跨平台\duilib\duilib\include;I:\跨平台\duilib\duilib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>I:\跨平台\directui\backend\win32;I:\跨平台\directui\third-party\stb;I:\跨平台\directui\third-party\zlib-1.3.1;I:\跨平台\directui\third-party\zlib-1.3.1\minizip;I:\跨平台\directui\include;I:\跨平台\directui\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>I:\跨平台\duilib\duilib\backend\win32;I:\跨平台\duilib\duilib\third-party\stb;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1;I:\跨平台\duilib\duilib\third-party\zlib-1.3.1\minizip;I:\跨平台\duilib\duilib\include;I:\跨平台\duilib\duilib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="I:\跨平台\directui\demo\RichEditDemo\CMakeLists.txt">
+    <CustomBuild Include="I:\跨平台\duilib\duilib\demo\RichEditDemo\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/跨平台/directui/demo/RichEditDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/跨平台/duilib/duilib/demo/RichEditDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/directui -BI:/跨平台/directui/build_win --check-stamp-file I:/跨平台/directui/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/duilib/duilib -BI:/跨平台/duilib/duilib/build_win --check-stamp-file I:/跨平台/duilib/duilib/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\跨平台\directui\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\跨平台\duilib\duilib\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/跨平台/directui/demo/RichEditDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/跨平台/duilib/duilib/demo/RichEditDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/directui -BI:/跨平台/directui/build_win --check-stamp-file I:/跨平台/directui/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/duilib/duilib -BI:/跨平台/duilib/duilib/build_win --check-stamp-file I:/跨平台/duilib/duilib/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\跨平台\directui\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\跨平台\duilib\duilib\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/跨平台/directui/demo/RichEditDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/跨平台/duilib/duilib/demo/RichEditDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/directui -BI:/跨平台/directui/build_win --check-stamp-file I:/跨平台/directui/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/duilib/duilib -BI:/跨平台/duilib/duilib/build_win --check-stamp-file I:/跨平台/duilib/duilib/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\跨平台\directui\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\跨平台\duilib\duilib\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/跨平台/directui/demo/RichEditDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/跨平台/duilib/duilib/demo/RichEditDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/directui -BI:/跨平台/directui/build_win --check-stamp-file I:/跨平台/directui/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/duilib/duilib -BI:/跨平台/duilib/duilib/build_win --check-stamp-file I:/跨平台/duilib/duilib/build_win/demo/RichEditDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,7 +160,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\跨平台\directui\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\跨平台\duilib\duilib\build_win\demo\RichEditDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,14 +168,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="I:\跨平台\directui\build_win\ZERO_CHECK.vcxproj">
-      <Project>{DE2C7761-6077-35C5-A7F0-92E30922E691}</Project>
+    <ProjectReference Include="I:\跨平台\duilib\duilib\build_win\ZERO_CHECK.vcxproj">
+      <Project>{382B2959-2FDC-31FD-9DD1-AD1743B09FCD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="I:\跨平台\directui\build_win\demo\RichEditDemo\RichEditDemo.vcxproj">
-      <Project>{123BBEAA-1136-378D-A450-C0ADF7692F5B}</Project>
+    <ProjectReference Include="I:\跨平台\duilib\duilib\build_win\demo\RichEditDemo\RichEditDemo.vcxproj">
+      <Project>{FDE608E4-3A6E-3D08-B76E-E004F50B284A}</Project>
       <Name>RichEditDemo</Name>
     </ProjectReference>
   </ItemGroup>

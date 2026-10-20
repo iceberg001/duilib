@@ -106,8 +106,8 @@ C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
-I:/跨平台/directui/CMakeLists.txt
-I:/跨平台/directui/build_win/CMakeFiles/3.31.9/CMakeCCompiler.cmake
-I:/跨平台/directui/build_win/CMakeFiles/3.31.9/CMakeCXXCompiler.cmake
-I:/跨平台/directui/build_win/CMakeFiles/3.31.9/CMakeRCCompiler.cmake
-I:/跨平台/directui/build_win/CMakeFiles/3.31.9/CMakeSystem.cmake
+I:/跨平台/duilib/duilib/CMakeLists.txt
+I:/跨平台/duilib/duilib/build_win/CMakeFiles/3.31.9/CMakeCCompiler.cmake
+I:/跨平台/duilib/duilib/build_win/CMakeFiles/3.31.9/CMakeCXXCompiler.cmake
+I:/跨平台/duilib/duilib/build_win/CMakeFiles/3.31.9/CMakeRCCompiler.cmake
+I:/跨平台/duilib/duilib/build_win/CMakeFiles/3.31.9/CMakeSystem.cmake

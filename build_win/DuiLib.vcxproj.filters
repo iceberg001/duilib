@@ -1,181 +1,181 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\EncodingTransform.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\EncodingTransform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\SkinFileReader_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\SkinFileReader_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIBaseWindow_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIBaseWindow_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UICombo.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UICombo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIEdit.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIEdit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIFileHelper.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIFileHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIFont_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIFont_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIPaintManager_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIPaintManager_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIRenderClip_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIRenderClip_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIRenderEngine_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIRenderEngine_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIResourceMgr_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIResourceMgr_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIRichEdit_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIRichEdit_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIScrollBar.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIScrollBar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\backend\win32\UIWindowImpBase_win32.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\backend\win32\UIWindowImpBase_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\CNodeUIBase.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\CNodeUIBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\CNodeUIManager.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\CNodeUIManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\NotifyPump.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\NotifyPump.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\SkinFileReader.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\SkinFileReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\SkinFileReaderService.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\SkinFileReaderService.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\SkinZipFileReader.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\SkinZipFileReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIBaseWindow.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIBaseWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIBaseWindowObjects.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIBaseWindowObjects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIButton.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIButton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UICheckbox.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UICheckbox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIChildLayout.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIChildLayout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UICombo.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UICombo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIContainer.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIContainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIControl.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIControl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIDelegate.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIDelegate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIDlgBuilder.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIDlgBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIEdit.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIEdit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIFont.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIFont.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIHorizontalLayout.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIHorizontalLayout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UILabel.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UILabel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIList.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIOption.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIOption.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIPaintManager.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIPaintManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIProgress.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIProgress.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIPtrArray.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIPtrArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIRect.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIRect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIRenderEngine.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIRenderEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIResourceMgr.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIResourceMgr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIRichEdit.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIRichEdit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIRichEditCaret.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIRichEditCaret.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIScrollBar.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIScrollBar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UISlider.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UISlider.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIString.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIStringPtrMap.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIStringPtrMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UITabLayout.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UITabLayout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIText.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIText.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UITileLayout.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UITileLayout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UITreeView.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UITreeView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIValArray.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIValArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIVerticalLayout.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIVerticalLayout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\UIWindowImpBase.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\UIWindowImpBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\src\tinyxml2.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\src\tinyxml2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="I:\跨平台\directui\CMakeLists.txt" />
+    <CustomBuild Include="I:\跨平台\duilib\duilib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{662C3ACB-E60D-307C-B687-B019F5B82FB2}</UniqueIdentifier>
+      <UniqueIdentifier>{8EB5F669-6DE5-3978-BF65-441936E2B85B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

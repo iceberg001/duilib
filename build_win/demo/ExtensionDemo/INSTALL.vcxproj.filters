@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="I:\跨平台\duilib\duilib\build_win\CMakeFiles\d6ad102bc2557ba7a1ffd98feb34ad48\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2B3D72D8-A1F2-37D8-8111-75A750D6B24E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

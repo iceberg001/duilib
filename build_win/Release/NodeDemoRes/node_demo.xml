@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="600,200" caption="0,0,0,40" mininfo="600,200">
+  <Font id="0" name="宋体" size="13" />
+  <VerticalLayout bkcolor="#FFF5F5F5">
+    <HorizontalLayout height="40" bkcolor="#FF2196F3">
+      <Label name="title" text="Node组件化示例 - 加法联动" float="true" pos="10,8,300,30" textcolor="#FFFFFFFF" font="0"/>
+      <Button name="closebtn" float="true" pos="570,8,590,28" text="X" bkcolor="#FFE91E63" textcolor="#FFFFFFFF"/>
+    </HorizontalLayout>
+    <HorizontalLayout inset="10,10,10,10" childpadding="10">
+      <CNodeAddUI name="nodeAdd" width="280" />
+      <CNodeResultUI name="nodeResult" width="280" />
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

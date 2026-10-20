@@ -1,4 +1,4 @@
-# Install script for directory: I:/跨平台/directui/demo
+# Install script for directory: I:/跨平台/duilib/duilib/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,18 +34,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("I:/跨平台/directui/build_win/demo/360SafeDemo/cmake_install.cmake")
-  include("I:/跨平台/directui/build_win/demo/ListDemo/cmake_install.cmake")
-  include("I:/跨平台/directui/build_win/demo/RichListDemo/cmake_install.cmake")
-  include("I:/跨平台/directui/build_win/demo/GameDemo/cmake_install.cmake")
-  include("I:/跨平台/directui/build_win/demo/RichEditDemo/cmake_install.cmake")
-  include("I:/跨平台/directui/build_win/demo/NodeDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/360SafeDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/ListDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/RichListDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/GameDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/RichEditDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/NodeDemo/cmake_install.cmake")
+  include("I:/跨平台/duilib/duilib/build_win/demo/ExtensionDemo/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "I:/跨平台/directui/build_win/demo/install_local_manifest.txt"
+  file(WRITE "I:/跨平台/duilib/duilib/build_win/demo/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

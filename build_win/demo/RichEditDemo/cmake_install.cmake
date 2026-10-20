@@ -1,4 +1,4 @@
-# Install script for directory: I:/跨平台/directui/demo/RichEditDemo
+# Install script for directory: I:/跨平台/duilib/duilib/demo/RichEditDemo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "I:/跨平台/directui/build_win/demo/RichEditDemo/install_local_manifest.txt"
+  file(WRITE "I:/跨平台/duilib/duilib/build_win/demo/RichEditDemo/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

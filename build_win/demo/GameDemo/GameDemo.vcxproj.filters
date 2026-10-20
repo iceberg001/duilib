@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="I:\跨平台\directui\demo\GameDemo\GameFrameWnd.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\demo\GameDemo\GameFrameWnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\demo\GameDemo\LoginFrameWnd.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\demo\GameDemo\LoginFrameWnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="I:\跨平台\directui\demo\GameDemo\main.cpp">
+    <ClCompile Include="I:\跨平台\duilib\duilib\demo\GameDemo\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="I:\跨平台\directui\demo\GameDemo\CMakeLists.txt" />
+    <CustomBuild Include="I:\跨平台\duilib\duilib\demo\GameDemo\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{662C3ACB-E60D-307C-B687-B019F5B82FB2}</UniqueIdentifier>
+      <UniqueIdentifier>{8EB5F669-6DE5-3978-BF65-441936E2B85B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
